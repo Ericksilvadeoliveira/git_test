@@ -1,0 +1,40 @@
+@charset "UTC-8";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 32px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.plants {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.barberry, .chilli, .pepper, .saffron {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    max-width: 200px;
+
+    
+}
+
