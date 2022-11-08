@@ -1,0 +1,43 @@
+:root {
+    --header: #FFDE25;
+    --sidebar: #ED7453;
+    --nav: #62DDFC;
+    --article: #BFCDDF;
+    --footer: #393F4D;
+    --font: #ffffff;
+}
+
+* {
+    color: var(--font);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 150px 450px;
+    grid-template-rows: repeat(4, 200px);
+}
+
+.header {
+    background-color: var(--header);
+    grid-area: 1/1/2/4;
+}
+
+.sidebar {
+    background-color: var(--sidebar);
+    grid-area: 2/1/4/2;
+}
+
+.nav {
+    background-color: var(--nav);
+    grid-area: 2/2/3/4;
+}
+
+.article {
+    background-color: var(--article);
+    grid-area: 3/2/4/4;
+}
+
+.footer {
+    background-color: var(--footer);
+    grid-area: 4/1/5/4;
+}
